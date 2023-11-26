@@ -55,19 +55,19 @@
     <button onclick="
       makeMove('rock');
     " class="move-button">
-      <img class="move-icon" src="images/rock-emoji.png">
+      <img class="move-icon" src="./images/rock-emoji.png">
     </button>
 
     <button onclick="
       makeMove('paper');
     " class="move-button">
-      <img class="move-icon" src="images/paper-emoji.png">
+      <img class="move-icon" src="./images/paper-emoji.png">
     </button>
 
     <button onclick="
       makeMove('scissors');
     " class="move-button">
-      <img class="move-icon" src="images/scissors-emoji.png">
+      <img class="move-icon" src="./images/scissors-emoji.png">
     </button>
 
     <p class="result js-result"></p>
@@ -118,8 +118,8 @@
         const movesElement = document.querySelector('.js-moves-chosen');
         movesElement.innerHTML = `
           You
-          <img src="images/${playerMove}-emoji.png" class="move-icon">
-          <img src="images/${computerMove}-emoji.png" class="move-icon">
+          <img src="./images/${playerMove}-emoji.png" class="move-icon">
+          <img src="./images/${computerMove}-emoji.png" class="move-icon">
           Computer
         `;
 
